@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/analyse-v1.0-blue"/>
   </p>
     
-⬇️[下载地址](https://github.com/Hiiam9/analyse/releases/tag/v1.0)
+⬇️[下载地址](https://github.com/Hiiam9/anaylseDNS/releases/tag/1.0)
 #### 功能： 解析pcap文件<br>
     
 -开发环境：ubuntu 14.04
