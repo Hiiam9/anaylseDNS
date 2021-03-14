@@ -1,8 +1,5 @@
 #include "pcap_analyse.h"
 
-
-
-
 int main(int argc,char **argv){
 
     //建立各帧头结构
@@ -27,7 +24,7 @@ int main(int argc,char **argv){
     //1.打开文件
     FILE *fp;
 
-    if(argc == 3){
+	if(argc == 3){
         fp = fopen(argv[2],"rb");
     }
     else
@@ -234,6 +231,12 @@ int main(int argc,char **argv){
 ERR:
     fclose(fp);
 
+	free(pcap_file_Hdr);
+	free(packet_Hdr);
+	free(eth_Hdr);
+	free(ip_Hdr);
+	free(udpHdr);
+	free(dns);
     return 0;
 }
 
