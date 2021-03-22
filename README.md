@@ -1,4 +1,4 @@
-<h1 align<h1 align="center">Welcome to analyseDNS 👋</h1>
+<h1 align<h1 align="center">Welcome to nightwish 👋</h1>
 
 <p>
   <img src="https://img.shields.io/badge/analyse-v1.0-blue"/>
